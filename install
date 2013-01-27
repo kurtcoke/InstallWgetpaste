@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd /tmp
+wget http://wgetpaste.zlin.dk/wgetpaste-2.20.tar.bz2 #Latest version 
+tar -jxvf wgetpaste-2.20.tar.bz2
+rm wgetpaste-2.20.tar.bz2
+cd wgetpaste-2.20/
+sudo cp wgetpaste /usr/bin/
+sudo cp wgetpaste.conf /etc/
+# Copy to bin can execute as normal command.
+# Now we need a config file.
+
+
